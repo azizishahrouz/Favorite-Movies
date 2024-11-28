@@ -1,0 +1,254 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.Display {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.Expression {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers, .operator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.operator button {
+  background-color: #f9c74f;
+  color: white;
+}
+
+.operator button:hover {
+  background-color: #f9c74f;
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.95);
+} */
+
+
+/* App.css */
+
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+} */
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.event-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+.open-modal-button {
+  background-color: #4CAF50; /* رنگ پس‌زمینه */
+  color: white; /* رنگ متن */
+  padding: 10px 20px; /* فاصله داخلی */
+  border: none; /* بدون حاشیه */
+  border-radius: 5px; /* لبه‌های گرد */
+  cursor: pointer; /* نشانگر موس به شکل دست */
+  transition: background-color 0.3s; /* انتقال نرم */
+  margin: 10px;
+}
+
+.open-modal-button:hover {
+  background-color: #45a049; /* رنگ پس‌زمینه هنگام هاور */
+}
+/* استایل برای ورودی عنوان جدید */
+.input-title {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+/* استایل برای دکمه افزودن عنوان */
+.button-add-title {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-item {
+  margin: 10px 0;
+}
+.title-container {
+  background-image: url('Hitchcock-Rodaje-1536x1126.jpg'); /* مسیر تصویر خود را اینجا وارد کنید */
+  background-size: cover; /* پوشش کامل */
+  background-position: center; /* مرکز قرار دادن تصویر */
+  padding: 20px; /* فاصله داخلی */
+  border-radius: 10px; /* گرد کردن گوشه‌ها */
+  color: rgba(255, 255, 255, 0.9); /* رنگ متن سفید با کمی شفافیت */
+  margin-bottom: 20px; /* فاصله از سایر عناصر */
+}
+.title-container h1, .title-container h2 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* سایه متن برای بهبود خوانایی */
+}

@@ -1,0 +1,34 @@
+.model-bk {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* پس‌زمینه نیمه‌شفاف */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* بالاتر از سایر عناصر */
+  }
+  
+  .model {
+    background-color: white; /* پس‌زمینه سفید */
+    padding: 20px;
+    border-radius: 10px; /* لبه‌های گرد */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* سایه برای عمق */
+    text-align: center; /* متن وسط‌چین */
+    max-width: 500px; /* حداکثر عرض */
+    width: 90%; /* عرض 90% برای موبایل */
+  }
+  
+  .model p {
+    font-size: 18px; /* اندازه متن */
+    color: #333; /* رنگ متن */
+    margin: 0; /* حذف حاشیه */
+  }
+  .model h1 {
+    border-bottom: 1px solid rgb(31, 30, 30);
+    padding: 5px;
+
+  }
+  
